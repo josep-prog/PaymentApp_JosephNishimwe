@@ -1,80 +1,81 @@
-View Project :  
-\------------  
+***View Project*** :
+
 Link : machine20learning.tech    
 Link : \[www.machine20learning.tech\](http://www.machine20learning.tech)
 
-Demo video :  
-\----------  
+**Demo video** :
+
 Link PART I :https://youtu.be/e6OaW2taDVI  
 Link PART II :https://youtu.be/CeeXNfhl4Ys
 
- \*\*\*Rwanda Payment Platform\*\*\*
+ ***Rwanda Payment Platform***
 
 Hello,  my name is Joseph Nishimwe. This project integrates a payment system into a website using the Flutterwave API, enabling MTN Mobile Money and Airtel payments. Clients can order and pay for services directly from the website.
 
-\*\*\*Table of Contents\*\*\*
+***Table of Contents***
 
-1\\. Project Overview    
-2\\. Features    
-3\\. Directory Structure    
-4\\. Local Setup and Execution    
-5\\. Deployment Instructions    
-6\\. Load Balancer Configuration    
-7\\. Error Handling    
-8\\. Demo Video    
-9\\. API Documentation and Attribution    
-10\\. Notes
+1\. Project Overview    
+2\. Features    
+3\. Directory Structure    
+4\. Local Setup and Execution    
+5\. Deployment Instructions    
+6\. Load Balancer Configuration    
+7\. Error Handling    
+8\. Demo Video    
+9\. API Documentation and Attribution    
+10\. Notes
 
- 		 	1\\.\*\*\*Project Overview\*\*\*
+ 		 	***1.Project Overview***
 
 The goal of this project is to provide a seamless and secure payment experience for clients using MTN Mobile Money and Airtel. By integrating the Flutterwave API, clients can enter their phone number and payment amount, and immediately receive a prompt on their phone to complete the transaction.
 
-\*\*Key Benefits:\*\*
+***Key Benefits:***
 
-\\- \*\*\*Convenience:\*\*\* Clients no longer need to make unnecessary calls to complete payments.
+\- *Convenience*: Clients no longer need to make unnecessary calls to complete payments.
 
-\\- \*\*\*Security Clients\*\*\* can verify payment completion, and Flutterwave provides transaction history for both clients and website owners.
+\- *Security Clients:* can verify payment completion, and Flutterwave provides transaction history for both clients and website owners.
 
-\\- \*\*\*Efficiency\*\*\*: Payments are processed quickly and securely.
+\- *Efficiency*: Payments are processed quickly and securely.
 
-\*\*Features\*\*
+***Features***
 
-\\- \*\*\*Payment Integration\*\*\*: Use Flutterwave API to process payments via MTN Mobile Money and Airtel.
+\- *Payment Integration*: Use Flutterwave API to process payments via MTN Mobile Money and Airtel.
 
-\\- \*\*\*User Interaction\*\*\*: Clients can enter their phone number and payment amount directly on the website.    
-\\- \*\*\*OTP Verification:\*\*\* Clients receive an OTP via SMS to authorize payments.
+\- *User Interaction*: Clients can enter their phone number and payment amount directly on the website.   
+   
+\- *OTP Verification*: Clients receive an OTP via SMS to authorize payments.
 
-\*\*\*Directory Structure\*\*\*
+***Directory Structure***
 
-PaymentApp\\\_JosephNishimwe/    
+PaymentApp\_JosephNishimwe/    
 ├── counter.js    
 ├── index.html     
 ├── payment.js    
 └── style.css
 
-\*\*\*Local Setup and Execution\*\*\*
+***Local Setup and Execution***
 
 To run this project locally, follow these steps:
 
-1\\. \*Prerequisites:\*
+1\. Prerequisites:
 
-   \\- Ensure Node.js is installed on your machine. If not, download it from     
+   \- Ensure Node.js is installed on your machine. If not, download it from     
          
-     nodejs.org(https://nodejs.org/).
+    	 nodejs.org(https://nodejs.org/).
 
-2\\. Install Dependencies:    
+2\. Install Dependencies:    
        
      npm install
 
-\*Initialize Node.js:\*
+***Initialize Node.js:***
 
-     	npm init \\-y
+     	npm init \-y
 
-\*Run the Application:\*
+***Run the Application:***
 
 node index.js
 
-\*Access the Application:\*
+***Access the Application:***
 
 	
 
@@ -83,46 +84,50 @@ node index.js
 | \[www.machine20learning.tech\](http://www.machine20learning.tech)  | This will take you to payment page  |  
 | Machine20learning.tech  | This will take you to payment page   |
 
-\* Enter your phone number , name , email .    
-      
-\* Continue with procedure    
-      
-\* payment amount to proceed with the payment.
+*  Enter your phone number , name , email .  
 
-\*\*Deployment Instructions\*\*
+    
 
-To deploy this application on the provided web servers (Web01 and Web02), follow these steps:
+*  Continue with procedure  
 
-\*\*\*SSH into the Servers:\*\*\*
+    
+
+*  payment amount to proceed with the payment.
+
+***Deployment Instructions***
+
+* To deploy this application on the provided web servers (Web01 and Web02), follow these steps:
+
+***SSH into the Servers:***
 
 ssh 6410-web-01@web01    
 ssh 6410-web-02@web02
 
-\*\*\*Clone the Repository:\*\*\*
+Clone the Repository:
 
 git clone https://github.com/josep-prog/PaymentApp\_JosephNishimwe.git 
 
-\*\*\*Install Dependencies:\*\*\*
+Install Dependencies:
 
- TO RUN THIS 
+ ***TO RUN THIS*** 
 
-\* cd PaymentJosephNishimwe
+ 	cd PaymentJosephNishimwe
 
-\* Within “payment.js” add your Flutterwave api key
+ 	Within “payment.js” add your Flutterwave api key
 
-\*\*\*Configure the Load Balancer:\*\*\*
+Configure the Load Balancer:
 
-\* Load balancer : lb-01 uses nginx to balance traffic request between web01 and web02    
+ 		**Load balancer** : lb-01 uses nginx to balance traffic request between web01 and web02    
       
-\* I installed nginx :     
-  \* After installing nginx, enter     
-  \* /var/www/html; place project here     
-  \* /etc/nginx/sites-enabled/default , make sure that project location is configured correctly,   “/var/www/html/PaymentApp\_JosephNishimwe;”    
+ I installed nginx :     
+   After installing nginx, enter     
+   /var/www/html; place project here     
+   /etc/nginx/sites-enabled/default , make sure that project location is configured correctly,   “/var/www/html/PaymentApp\_JosephNishimwe;”    
     
 
-\*\*\****Load Balancer Configuration***\*\*\*
+***Load Balancer Configuration***
 
-\* To configure the load balancer (Lb01) for traffic distribution:    
+ To configure the load balancer (Lb01) for traffic distribution:    
       
 ***First step : install nginx***  
 	  
