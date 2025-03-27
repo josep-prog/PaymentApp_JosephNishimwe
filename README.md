@@ -82,7 +82,7 @@ node index.js
 | Link  | DESTINATION |  
 | :---- | :---- |  
 | \[www.machine20learning.tech\](http://www.machine20learning.tech)  | This will take you to payment page  |  
-| Machine20learning.tech  | This will take you to payment page   |
+| machine20learning.tech  | This will take you to payment page   |
 
 *  Enter your phone number , name , email .  
 
@@ -202,20 +202,20 @@ X-Served-By: 54.196.136.88:80
 
 ubuntu@6410-lb-01:\~$ 
 
-\*\*\*Demo Video\*\*\*
+	Demo Video
 
 A demo video showcasing the application's features is available here:
 
 Link PART I :https://youtu.be/e6OaW2taDVI  
 Link PART II :https://youtu.be/CeeXNfhl4Ys 
 
-\*\*\*API Documentation and Attribution\*\*\*
+API Documentation and Attribution
 
 This project uses the Flutterwave API for payment processing. this allow integration of MTN api integration and airtel as will to allow client to pay without unnecessary complexities in payment process
 
 Notes: 
 
-\* The Flutterwave API is currently in test mode. To activate live mode, you must provide the following documents:
+   The Flutterwave API is currently in test mode. To activate live mode, you must provide the following documents:
 
 	\* RRA (Rwanda Revenue Authority) document
 
@@ -224,10 +224,10 @@ Notes:
 	\* Account owner's National ID
 
 Link API Document: \[https://developer.flutterwave.com/docs/getting-started\](https://developer.flutterwave.com/docs/getting-started)    
- 
 
-\*\*Author :\*\* Joseph Nishimwe
 
-\*\*GitHub:\*\* josep-prog    
+Author : Joseph Nishimwe
+
+GitHub:josep-prog    
 Project Repository: https://github.com/josep-prog/PaymentApp\_JosephNishimwe.git
 
