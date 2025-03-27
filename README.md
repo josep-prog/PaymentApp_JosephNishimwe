@@ -41,10 +41,7 @@ The goal of this project is to provide a seamless and secure payment experience 
 
 PaymentApp\_JosephNishimwe/  
 ├── counter.js  
-├── index.html  
-├── main.js  
-├── package-lock.json  
-├── package.json  
+├── index.html   
 ├── payment.js  
 └── style.css
 
@@ -104,7 +101,7 @@ git clone https://github.com/josep-prog/PaymentApp_JosephNishimwe.git
 
 * cd PaymentJosephNishimwe
 
-* Within “script.js” add your Flutterwave api key
+* Within “payment.js” add your Flutterwave api key
 
 ***Configure the Load Balancer:***
 
@@ -113,7 +110,7 @@ git clone https://github.com/josep-prog/PaymentApp_JosephNishimwe.git
 * I installed nginx :   
   * After installing nginx, enter   
   * /var/www/html; place project here   
-  * /etc/nginx/sites-enabled/default , make sure that project location is configured correctly,   “/var/www/html/PaymentApp\_JosephNishimwe;”  
+  * /etc/nginx/sites-enabled/default , make sure that project location is configured correctly,   “/var/www/html/PaymentApp_JosephNishimwe;”  
     
 
 ***Load Balancer Configuration***
@@ -156,11 +153,11 @@ Notes:
 
 * The Flutterwave API is currently in test mode. To activate live mode, you must provide the following documents:
 
-* RRA (Rwanda Revenue Authority) document
+	* RRA (Rwanda Revenue Authority) document
 
-* RDB (Rwanda Development Board) document
+	* RDB (Rwanda Development Board) document
 
-* Account owner's National ID
+	* Account owner's National ID
 
 Link API Document: [https://developer.flutterwave.com/docs/getting-started](https://developer.flutterwave.com/docs/getting-started)  
  
