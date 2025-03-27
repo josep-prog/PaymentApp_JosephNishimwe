@@ -3,7 +3,7 @@ Link : [www.machine20learning.tech](http://www.machine20learning.tech)
 
  ***Rwanda Payment Platform***
 
-Hello, my name is Joseph Nishimwe. This project integrates a payment system into a website using the Flutterwave API, enabling MTN Mobile Money and Airtel payments. Clients can order and pay for services directly from the website.
+Hello,  my name is Joseph Nishimwe. This project integrates a payment system into a website using the Flutterwave API, enabling MTN Mobile Money and Airtel payments. Clients can order and pay for services directly from the website.
 
 ***Table of Contents***
 
