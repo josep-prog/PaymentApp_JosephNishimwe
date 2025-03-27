@@ -96,7 +96,7 @@ ssh 6410-web-02@web02
 
 ***Clone the Repository:***
 
-git clone https://github.com/josep-prog/PaymentApp\_JosephNishimwe.git
+git clone https://github.com/josep-prog/PaymentApp_JosephNishimwe.git 
 
 ***Install Dependencies:***
 
@@ -168,5 +168,5 @@ Link API Document: [https://developer.flutterwave.com/docs/getting-started](http
 **Author :** Joseph Nishimwe
 
 **GitHub:** josep-prog  
-Project Repository: https://github.com/josep-prog/PaymentJosephNishimwe.git
+Project Repository: https://github.com/josep-prog/PaymentApp_JosephNishimwe.git
 
