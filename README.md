@@ -5,8 +5,7 @@ Link : \[www.machine20learning.tech\](http://www.machine20learning.tech)
 
 **Demo video** :
 
-Link PART I :https://youtu.be/e6OaW2taDVI  
-Link PART II :https://youtu.be/CeeXNfhl4Ys
+Link  :https://youtu.be/e6OaW2taDVI  
 
  ***Rwanda Payment Platform***
 
