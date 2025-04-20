@@ -141,8 +141,8 @@ Create a new configuration file for the load balancer:
 	**Add the following configuration:**
 
 	upstream backend {  
-    server 54.89.196.80:80;  
-    server 54.196.136.88:80;  
+    server 52.71.25.46:80;  
+    server 44.203.41.96:80;  
 }
 
 server {  
@@ -183,7 +183,7 @@ Last-Modified: Mon, 24 Mar 2025 19:44:22 GMT
 ETag: "67e1b616-59a"  
 X-Served-By: 6410-web-01  
 Accept-Ranges: bytes  
-X-Served-By: 54.89.196.80:80
+X-Served-By: 52.71.25.46:80
 
 **ubuntu@6410-lb-01:\~$ curl \-sI localhost**
 
@@ -197,7 +197,7 @@ Last-Modified: Fri, 07 Mar 2025 22:28:36 GMT
 ETag: "67cb7314-d"  
 X-Served-By: 6410-web-02  
 Accept-Ranges: bytes  
-X-Served-By: 54.196.136.88:80
+X-Served-By: 44.203.41.96:80
 
 ubuntu@6410-lb-01:\~$ 
 
